@@ -13,3 +13,18 @@ C:\Users\Sketus Machine\source\repos\CodeMaze\CompanyEmployees\LoggerService\obj
 C:\Users\Sketus Machine\source\repos\CodeMaze\CompanyEmployees\LoggerService\obj\Debug\net6.0\refint\LoggerService.dll
 C:\Users\Sketus Machine\source\repos\CodeMaze\CompanyEmployees\LoggerService\obj\Debug\net6.0\LoggerService.pdb
 C:\Users\Sketus Machine\source\repos\CodeMaze\CompanyEmployees\LoggerService\obj\Debug\net6.0\ref\LoggerService.dll
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\LoggerService\bin\Debug\net6.0\LoggerService.deps.json
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\LoggerService\bin\Debug\net6.0\LoggerService.dll
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\LoggerService\bin\Debug\net6.0\LoggerService.pdb
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\LoggerService\bin\Debug\net6.0\Contracts.dll
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\LoggerService\bin\Debug\net6.0\Contracts.pdb
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\LoggerService\obj\Debug\net6.0\LoggerService.csproj.AssemblyReference.cache
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\LoggerService\obj\Debug\net6.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\LoggerService\obj\Debug\net6.0\LoggerService.AssemblyInfoInputs.cache
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\LoggerService\obj\Debug\net6.0\LoggerService.AssemblyInfo.cs
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\LoggerService\obj\Debug\net6.0\LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\LoggerService\obj\Debug\net6.0\LoggerService.csproj.CopyComplete
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\LoggerService\obj\Debug\net6.0\LoggerService.dll
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\LoggerService\obj\Debug\net6.0\refint\LoggerService.dll
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\LoggerService\obj\Debug\net6.0\LoggerService.pdb
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\LoggerService\obj\Debug\net6.0\ref\LoggerService.dll
