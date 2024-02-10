@@ -22,7 +22,7 @@ namespace Entities.Models
 
         [Required(ErrorMessage = "Position is a required field.")]
         [MaxLength(20, ErrorMessage = "Maximum length for the Position is 20 characters.")]
-        private string? Position { get; set; }
+        public string? Position { get; set; }
 
         [ForeignKey(nameof(Company))]
         public Guid CompanyId { get; set; }
