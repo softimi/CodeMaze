@@ -103,3 +103,17 @@ C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\CompanyEmployees\bin\Debug\ne
 C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\Repository.dll
 C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\Repository.pdb
 C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\Entities.pdb
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\CompanyEmployees.Presentation.dll
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\Service.Contracts.dll
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\Service.dll
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\CompanyEmployees.Presentation.pdb
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\Service.pdb
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\Service.Contracts.pdb
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\CompanyEmployees\obj\Debug\net6.0\CompanyEmployees.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\Shared.dll
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\Shared.pdb
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
