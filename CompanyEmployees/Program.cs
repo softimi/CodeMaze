@@ -1,4 +1,5 @@
 using CompanyEmployees.Extensions;
+using Contracts;
 using Microsoft.AspNetCore.HttpOverrides;
 using NLog;
 
@@ -22,9 +23,15 @@ builder.Services.AddControllers().AddApplicationPart(typeof(CompanyEmployees.Pre
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
+var logger = app.Services.GetRequiredService<ILoggerManager>();
+app.ConfigureExceptionHandler(logger);
+if (app.Environment.IsProduction())
+    app.UseHsts(); // This was added with the modification of lines 26 and 27
+
+
+/*if (app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
-else
+else*/ // This is the default
     app.UseHsts();
 
 // Configure the HTTP request pipeline.

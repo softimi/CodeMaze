@@ -18,7 +18,13 @@ namespace CompanyEmployees.Presentation.Controllers
         [HttpGet]
         public IActionResult GetCompanies()
         {
-            try
+            //throw new Exception("Exception");
+
+            var companies =
+                _service.CompanyService.GetAllCompanies(trackChanges: false);
+            return Ok(companies);
+
+            /*try
             {
                 var companies =
                 _service.CompanyService.GetAllCompanies(trackChanges: false);
@@ -27,8 +33,16 @@ namespace CompanyEmployees.Presentation.Controllers
             catch
             {
                 return StatusCode(500, "Internal server error");
-            }
+            }*/
         }
+
+        [HttpGet("{id:guid}")]
+        public IActionResult GetCompany(Guid id)
+        {
+            var company = _service.CompanyService.GetCompany(id, trackChanges: false);
+            return Ok(company);
+        }
+
 
     }
 
