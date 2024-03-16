@@ -142,6 +142,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\HI\\source\\repos\\CodeMaze\\CompanyEmployees\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\HI\\source\\repos\\CodeMaze\\CompanyEmployees\\Entities\\Entities.csproj"
+              },
               "C:\\Users\\HI\\source\\repos\\CodeMaze\\CompanyEmployees\\Shared\\Shared.csproj": {
                 "projectPath": "C:\\Users\\HI\\source\\repos\\CodeMaze\\CompanyEmployees\\Shared\\Shared.csproj"
               }

@@ -44,6 +44,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[6.0.28, )"
+            },
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.1.38, )"
@@ -118,6 +122,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.28, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.26, )"
@@ -423,6 +431,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\HI\\source\\repos\\CodeMaze\\CompanyEmployees\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\HI\\source\\repos\\CodeMaze\\CompanyEmployees\\Entities\\Entities.csproj"
+              },
               "C:\\Users\\HI\\source\\repos\\CodeMaze\\CompanyEmployees\\Shared\\Shared.csproj": {
                 "projectPath": "C:\\Users\\HI\\source\\repos\\CodeMaze\\CompanyEmployees\\Shared\\Shared.csproj"
               }
