@@ -25,3 +25,5 @@ C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\Contracts\bin\Debug\net6.0\En
 C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\Contracts\bin\Debug\net6.0\Entities.pdb
 C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\Contracts\obj\Debug\net6.0\Contracts.csproj.AssemblyReference.cache
 C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\Contracts\obj\Debug\net6.0\Contracts.csproj.CopyComplete
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\Contracts\bin\Debug\net6.0\Shared.dll
+C:\Users\HI\source\repos\CodeMaze\CompanyEmployees\Contracts\bin\Debug\net6.0\Shared.pdb
