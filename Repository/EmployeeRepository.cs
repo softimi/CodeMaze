@@ -1,6 +1,7 @@
 ﻿using Contracts;
 using Entities.Models;
 using Microsoft.EntityFrameworkCore;
+using Repository.Extensions;
 using Shared.RequestFeatures;
 using System;
 using System.Collections.Generic;
@@ -39,10 +40,15 @@ namespace Repository
         {
             /*var employees = await FindByCondition(e => 
             e.CompanyId.Equals(companyId), trackChanges)*/
-            var employees = await FindByCondition(e => 
+            /*var employees = await FindByCondition(e => 
             e.CompanyId.Equals(companyId) && (e.Age >= 
             employeeParameters.MinAge && e.Age <= 
-            employeeParameters.MaxAge), trackChanges)
+            employeeParameters.MaxAge), trackChanges)*/
+            var employees = await FindByCondition(e => 
+            e.CompanyId.Equals(companyId), trackChanges)
+                .FilterEmployees(employeeParameters.MinAge, 
+                employeeParameters.MaxAge)
+                .Search(employeeParameters.SearchTerm)
                 .OrderBy(e => e.Name)
                 .ToListAsync();
 
@@ -72,9 +78,10 @@ namespace Repository
         }*/
 
 
-        public async Task<Employee> GetEmployeeAsync(Guid companyId, Guid id, bool trackChanges) => 
-             await FindByCondition(e => e.CompanyId.Equals(companyId) && e.Id.Equals(id), 
-                trackChanges)
+        public async Task<Employee> GetEmployeeAsync
+            (Guid companyId, Guid id, bool trackChanges) => 
+             await FindByCondition(e => e.CompanyId.Equals(companyId)
+             && e.Id.Equals(id), trackChanges)
                     .SingleOrDefaultAsync();
 
         public void CreateEmployeeForCompany(Guid companyId, Employee employee)
