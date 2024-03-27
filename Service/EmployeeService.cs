@@ -50,6 +50,9 @@ namespace Service
 
             return employeesDto;*/
 
+            if (!employeeParameters.ValidAgeRange)
+                throw new MaxAgeRangeBadRequestException();
+
             await CheckIfCompanyExists(companyId, trackChanges);
 
             var employeesWithMetaData = await _repository.Employee
